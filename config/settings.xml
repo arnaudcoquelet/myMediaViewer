@@ -1,0 +1,9 @@
+<settingRequirements>
+ <settings>
+  <setting details="" label="Enable myMediaViewer" user_device="device" id="EnableWebappmyMediaViewer" display="false" accessRights="RW_RW" description="Will enable or disable the webapp myMediaViewer" range="All" rights="RW_RW" value="true" mainCategory="Application" DM="true" mandatory="false" requiresReboot="SOFT" release="R200" displayRights="0_0" category="myMediaViewer" enabler="" type="ENABLER"/>
+  <setting details="" label="URL" user_device="device" id="myMediaViewerUrl" display="true" accessRights="RW_RW" description="" range="All" rights="RW_RW" value="http://" mainCategory="Application" DM="false" mandatory="true" requiresReboot="NONE" release="R200" displayRights="RW_RW" category="myMediaViewer" enabler="EnableWebappmyMediaViewer" type="TEXT"/>
+  <setting details="" label="User" user_device="device" id="myMediaViewerUser" display="true" accessRights="RW_RW" description="" range="All" rights="RW_RW" value="" mainCategory="Application" DM="false" mandatory="true" requiresReboot="NONE" release="R200" displayRights="RW_RW" category="myMediaViewer" enabler="EnableWebappmyMediaViewer" type="TEXT"/>
+  <setting details="" label="Refresh" user_device="device" id="myMediaViewerRefresh" display="true" accessRights="RW_RW" description="" range="All" rights="RW_RW" value="60" mainCategory="Application" DM="false" mandatory="true" requiresReboot="NONE" release="R200" displayRights="RW_RW" category="myMediaViewer" enabler="EnableWebappmyMediaViewer" type="NUMERIC"/>
+  <setting details="" label="Preview" user_device="device" id="myMediaViewerEnablePreview" display="true" accessRights="RW_RW" description="" range="All" rights="RW_RW" value="false" mainCategory="Application" DM="false" mandatory="true" requiresReboot="NONE" release="R200" displayRights="RW_RW" category="myMediaViewer" enabler="EnableWebappmyMediaViewer" type="BOOLEAN"/>
+ </settings>
+</settingRequirements>

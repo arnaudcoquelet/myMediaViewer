@@ -1,0 +1,12 @@
+{
+//Name=Default
+//Author=Arnaud Coquelet
+//CreationDate=2013/07/22
+    name : "Default",
+    type : "Default",
+	
+	
+    "webapp" : {
+		"myMediaViewer" : ["main.css","main8082.css","icons.css"]
+   }
+}

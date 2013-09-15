@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+.myMediaViewer-Image {
+	width:492px;
+	height:314px;
+}
+
+.myMediaViewer-Image  .hide {
+	display:none;
+	opacity:0;
+}
+
+.myMediaViewer-Image  .show {
+	display:block;
+	opacity:1;
+}
